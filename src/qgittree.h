@@ -70,7 +70,7 @@ namespace LibQGit2
              * Get the number of entries listed in a tree
              * @return the number of entries in the tree
              */
-            size_t entryCount();
+            size_t entryCount() const;
 
             /**
              * Lookup a tree entry by its filename

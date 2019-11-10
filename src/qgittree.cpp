@@ -48,7 +48,7 @@ OId Tree::oid()
     return OId(git_tree_id(data()));
 }
 
-size_t Tree::entryCount()
+size_t Tree::entryCount() const
 {
     return git_tree_entrycount(data());
 }
