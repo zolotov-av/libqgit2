@@ -1,3 +1,8 @@
+## 0.26e
+
+* fork from libqgit2 to create new library with some new rules
+* move from cmake to qmake to easy use in QtCreator
+
 # 0.22
 
 ## v0.22.0
